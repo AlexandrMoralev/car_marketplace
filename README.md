@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/AlexandrMoralev/amoralev.svg?branch=master)](https://travis-ci.org/AlexandrMoralev/amoralev/todo_list)
-[![codecov](https://codecov.io/gh/AlexandrMoralev/amoralev/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexandrMoralev/amoralev/todo_list)
-
+[![Build Status](https://travis-ci.com/AlexandrMoralev/car_marketplace.svg?branch=main)](https://travis-ci.com/AlexandrMoralev/car_marketplace)
+[![codecov](https://codecov.io/gh/AlexandrMoralev/car_marketplace/branch/main/graph/badge.svg?token=YL9EFXAF07)](https://codecov.io/gh/AlexandrMoralev/car_marketplace)
 
 ## Web приложение - площадка продажи авто.
 Портал для размещения объявлений.
