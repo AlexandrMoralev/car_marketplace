@@ -1,0 +1,20 @@
+language: java
+jdk: openjdk11
+sudo: false
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+env:
+  global:
+   - CODECOV_TOKEN="5dccd071-9f2f-45c8-99e7-c5cad4f1b1c1"
+notifications:
+  email:
+    recipients:
+      - moralev.alexandr@yandex.ru
+    on_success: never
+    on_failure: always
+services:
+    - postgresql
+
+before_install:
+    - psql -c 'create database car_marketplace;' -U postgres
+    - psql -c 'create database test_car_marketplace;' -U postgres
